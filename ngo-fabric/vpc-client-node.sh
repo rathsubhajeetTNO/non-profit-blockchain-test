@@ -30,10 +30,10 @@ VPCENDPOINTSERVICENAME=$(aws managedblockchain get-network --region $REGION --ne
  
 echo Creating a keypair named $NETWORKNAME-keypair. The .pem file will be in your $HOME directory
 aws ec2 create-key-pair --key-name $NETWORKNAME-keypair --region $REGION --query 'KeyMaterial' --output text > ~/$NETWORKNAME-keypair.pem
-if [ $? -gt 0 ]; then
-    echo Keypair $NETWORKNAME-keypair could not be created
-    exit $?
-fi
+# if [ $? -gt 0 ]; then
+#     echo Keypair $NETWORKNAME-keypair could not be created
+#     exit $?
+# fi
 
 chmod 400 ~/$NETWORKNAME-keypair.pem
 sleep 10
