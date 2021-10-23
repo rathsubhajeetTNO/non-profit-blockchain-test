@@ -21,7 +21,7 @@ In the Cloud9 console, click 'Create Environment'. Using 'us-east-1' for the reg
 
 ```
 cd ~
-git clone https://github.com/aws-samples/non-profit-blockchain.git
+git clone https://github.com/rathsubhajeetTNO/non-profit-blockchain.git
 ```
 
 Update your AWS CLI to the latest version.
@@ -109,7 +109,7 @@ Clone the repo:
 
 ```
 cd ~
-git clone https://github.com/aws-samples/non-profit-blockchain.git
+git clone https://github.com/rathsubhajeetTNO/non-profit-blockchain.git
 ```
 
 In future steps you will need to refer to different configuration values in your Fabric network. In this step
@@ -134,9 +134,11 @@ Check the `source` worked. You should see values for both of the ENV variables b
 
 ```
 $ echo $PEERSERVICEENDPOINT
-nd-4MHB4EKFCRF7VBHXZE2ZU4F6GY.m-B7YYBFY4GREBZLPCO2SUS4GP3I.n-WDG36TTUD5HEJORZUPF4REKMBI.managedblockchain.us-east-1.amazonaws.com:30003
-
 $ echo $MSP
+```
+
+```
+nd-4MHB4EKFCRF7VBHXZE2ZU4F6GY.m-B7YYBFY4GREBZLPCO2SUS4GP3I.n-WDG36TTUD5HEJORZUPF4REKMBI.managedblockchain.us-east-1.amazonaws.com:30003
 m-MKPVAFNPQ5BV7ADVZ4MP2QWA3M
 ```
 
