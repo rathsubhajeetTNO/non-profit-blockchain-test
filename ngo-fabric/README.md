@@ -133,8 +133,8 @@ This can be found in the file: `~/peer-exports.sh`, which we also source here.
 Check the `source` worked. You should see values for both of the ENV variables below:
 
 ```
-$ echo $PEERSERVICEENDPOINT
-$ echo $MSP
+echo $PEERSERVICEENDPOINT
+echo $MSP
 ```
 
 ```
