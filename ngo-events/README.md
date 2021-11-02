@@ -17,14 +17,14 @@ In our NGO donation application we will be listening for chaincode events that i
  In the AWS account where you [created the Fabric network](../ngo-fabric/README.md), use Cloud9 to SSH into the Fabric client node. The key (i.e. the .PEM file) should be in your home directory. The DNS of the Fabric client node EC2 instance can be found in the output of the CloudFormation stack you created in [Part 1](../ngo-fabric/README.md).
 
 ```
-ssh ec2-user@<dns of EC2 instance> -i ~/<Fabric network name>-keypair.pem
+ssh ec2-user@<dns of EC2 instance> -i ~/<Fabric network name>-member-keypair.pem
 ```
 
 You should have already cloned this repo in [Part 1](../ngo-fabric/README.md).
 
 ```
 cd ~
-git clone https://github.com/aws-samples/non-profit-blockchain.git
+git clone https://github.com/rathsubhajeetTNO/non-profit-blockchain-test.git
 ```
 
 You will need to set the context before carrying out any Fabric CLI commands. You do this 
