@@ -12,7 +12,7 @@ The DNS of the Fabric client node EC2 instance can be found in the output of the
 created in [Part 1](../ngo-fabric/README.md)
 
 ```
-ssh ec2-user@<dns of EC2 instance> -i ~/<Fabric network name>-keypair.pem
+ssh ec2-user@<dns of EC2 instance> -i ~/<Fabric network name>-member-keypair.pem
 ```
 
 You should have already cloned this repo in [Part 1](../ngo-fabric/README.md)
