@@ -58,7 +58,7 @@ You should have already cloned this repo in [Part 1](../ngo-fabric/README.md)
 
 ```
 cd ~
-git clone https://github.com/aws-samples/non-profit-blockchain.git
+git clone https://github.com/rathsubhajeetTNO/non-profit-blockchain-test.git
 ```
 
 You will need to set the context before carrying out any Fabric CLI commands. We do this 
@@ -97,7 +97,7 @@ In the Cloud9 console, click 'Create Environment'. Using 'us-east-1' for the reg
 
 ```
 cd ~
-git clone https://github.com/aws-samples/non-profit-blockchain.git
+git clone https://github.com/rathsubhajeetTNO/non-profit-blockchain-test.git
 ```
 
 Update your AWS CLI to the latest version.
@@ -180,14 +180,14 @@ Answer 'yes' if prompted: `Are you sure you want to continue connecting (yes/no)
 
 ```
 cd ~
-ssh ec2-user@<dns of EC2 instance> -i ~/<Fabric network name>-keypair.pem
+ssh ec2-user@<dns of EC2 instance> -i ~/<Fabric network name>-member-keypair.pem
 ```
 
 Clone the repo:
 
 ```
 cd ~
-git clone https://github.com/aws-samples/non-profit-blockchain.git
+git clone https://github.com/rathsubhajeetTNO/non-profit-blockchain-test.git
 ```
 
 Create the file that includes the ENV export values that define your Fabric network configuration.
